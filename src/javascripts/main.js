@@ -1,8 +1,14 @@
 import '../styles/main.scss';
+import fullScore from './Components/Eat/eatProgress';
+import strengthScore from './Components/Fight/fightProgress';
+import funScore from './Components/Play/playProgress';
+import energyScore from './Components/Sleep/sleepProgress';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  fullScore();
+  funScore();
+  strengthScore();
+  energyScore();
 };
 
 init();
