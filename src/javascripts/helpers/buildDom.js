@@ -1,5 +1,5 @@
 const buildDom = () => {
-  document.querySelector('#eat').innerHTML = `<div class="card w-50">
+  document.querySelector('#eat').innerHTML = `<div class="card w-50" id="eatQuad">
     <div class="card-body">
       <h5 class="card-title">Eat</h5>
       <p id="full">100</p>
@@ -10,7 +10,7 @@ const buildDom = () => {
     </div>
   </div>`;
 
-  document.querySelector('#play').innerHTML = `<div class="card w-50">
+  document.querySelector('#play').innerHTML = `<div class="card w-50" id="playQuad">
     <div class="card-body">
       <h5 class="card-title">Play</h5>
       <p id="fun">50</p>
@@ -21,7 +21,7 @@ const buildDom = () => {
     </div>
   </div>`;
 
-  document.querySelector('#fight').innerHTML = `<div class="card w-50">
+  document.querySelector('#fight').innerHTML = `<div class="card w-50" id="fightQuad">
     <div class="card-body">
       <h5 class="card-title">Fight</h5>
       <p id="strength">100</p>
@@ -32,7 +32,7 @@ const buildDom = () => {
     </div>
   </div>`;
 
-  document.querySelector('#sleep').innerHTML = `<div class="card w-50">
+  document.querySelector('#sleep').innerHTML = `<div class="card w-50" id="sleepQuad">
     <div class="card-body">
       <h5 class="card-title">Sleep</h5>
       <p id="energy">50</p>
