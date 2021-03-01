@@ -1,14 +1,8 @@
 import '../styles/main.scss';
-import fullScore from './Components/Eat/eatProgress';
-import strengthScore from './Components/Fight/fightProgress';
-import funScore from './Components/Play/playProgress';
-import energyScore from './Components/Sleep/sleepProgress';
+import buildDom from './helpers/buildDom';
 
 const init = () => {
-  fullScore();
-  funScore();
-  strengthScore();
-  energyScore();
+  buildDom();
 };
 
 init();
