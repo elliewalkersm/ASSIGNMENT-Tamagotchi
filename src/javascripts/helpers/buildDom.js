@@ -1,4 +1,6 @@
 const buildDom = () => {
+  document.querySelector('#progress').innerHTML = '<h1>Tamagotchi</h1>';
+
   document.querySelector('#eat').innerHTML = `<div class="card w-50" id="eatQuad">
     <div class="card-body">
       <h5 class="card-title">Eat</h5>

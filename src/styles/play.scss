@@ -1,5 +1,26 @@
+#play {
+  padding: 20px;
+};
+
 #playQuad {
   background-color: rgb(151, 80, 201);
   border: 1px solid white;
   border-radius: 10px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  width: auto;
+
+  .card-title {
+    background-color: rgb(98, 235, 98);
+    padding: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+};
+
+@media (max-width: 700px) {
+  #playQuad {
+    font-size: 1.5em;
+  }
+};

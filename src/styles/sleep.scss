@@ -1,5 +1,26 @@
+#sleep {
+  padding: 20px;
+};
+
 #sleepQuad {
-  background-color: rgb(219, 49, 120);
+  background-color: rgb(252, 154, 219);
   border: 1px solid white;
   border-radius: 10px;
-}
+  display: flex;
+  flex-wrap: wrap;
+  height: 150px;
+  width: auto;
+
+  .card-title {
+    background-color: rgb(226, 101, 29);
+    padding: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+};
+
+@media (max-width: 700px) {
+  #sleepQuad {
+    font-size: 1.5em;
+  }
+};
