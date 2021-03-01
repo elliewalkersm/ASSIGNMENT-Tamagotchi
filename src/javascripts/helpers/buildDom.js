@@ -13,7 +13,7 @@ const buildDom = () => {
   document.querySelector('#play').innerHTML = `<div class="card w-50">
     <div class="card-body">
       <h5 class="card-title">Play</h5>
-      <p id="full">100</p>
+      <p id="fun">50</p>
       <div id="btn-container">
         <button type="button" class="btn btn-info" id="superFun-btn">Super Fun</button>
         <button type="button" class="btn btn-warning" id="slightlyFun-btn">Slightly Fun</button>
@@ -24,7 +24,7 @@ const buildDom = () => {
   document.querySelector('#fight').innerHTML = `<div class="card w-50">
     <div class="card-body">
       <h5 class="card-title">Fight</h5>
-      <p id="full">100</p>
+      <p id="strength">100</p>
       <div id="btn-container">
         <button type="button" class="btn btn-info" id="runAway-btn">Run Away</button>
         <button type="button" class="btn btn-warning" id="violence-btn">Violence</button>
@@ -35,7 +35,7 @@ const buildDom = () => {
   document.querySelector('#sleep').innerHTML = `<div class="card w-50">
     <div class="card-body">
       <h5 class="card-title">Sleep</h5>
-      <p id="full">100</p>
+      <p id="energy">50</p>
       <div id="btn-container">
         <button type="button" class="btn btn-info" id="nap-btn">Nap</button>
         <button type="button" class="btn btn-warning" id="slumber-btn">Slumber</button>
