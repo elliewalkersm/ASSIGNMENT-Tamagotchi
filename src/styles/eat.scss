@@ -1,26 +1,30 @@
 #eat {
-  padding: 20px;
-};
-
-#eatQuad {
   background-color: rgb(98, 235, 98);
+  margin: 10px;
   border: 1px solid white;
   border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  height: 150px;
-  width: auto;
+  height: 300px;
+  width: 665px;
 
-    .card-title {
+    h5 {
       background-color: rgb(252, 154, 219);
       padding: 3px;
       margin-left: 100px;
       margin-right: 100px;
+      font-size: 40px;
+    }
+
+    #healthy-btn {
+      font-size: 25px;
+    }
+
+    #unhealthy-btn {
+      font-size: 25px;
     }
 };
 
 @media (max-width: 700px) {
-  #eatQuad {
+  #eat {
     font-size: 1.5em;
   }
 };

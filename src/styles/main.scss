@@ -5,10 +5,19 @@
 @import "./fight.scss";
 @import "./sleep.scss";
 @import "./progress.scss";
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 body {
   background-image: url(https://i.pinimg.com/originals/05/58/67/055867b24a1727b4892e6472a2408fc6.png);
   color: white;
   text-align: center;
   margin-top: 100px;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 65px;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
